@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def maps_list(request):
+    return render(request, 'mapmaker/maps.html', {})

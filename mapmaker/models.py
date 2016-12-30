@@ -14,3 +14,6 @@ class POIType(models.Model):
 class POI(models.Model):
     name = models.CharField(max_length=200)
     special_icon = models.BooleanField()
+    pos_x = models.FloatField()
+    pos_y = models.FloatField()
+
